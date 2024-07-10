@@ -93,3 +93,12 @@ switch (operation) {
   default:
     console.log(`Invalid operation '${operation}'`);
 }
+
+
+// Way to run these files
+// To read a file: node index.js read test.txt
+// To append content: node index.js append test.txt "New content"
+// To delete a file: node index.js delete test.txt
+// To create a file: node index.js create test.txt
+// To rename a file: node index.js rename test.txt new.txt
+// To list directory contents: node index.js list .
